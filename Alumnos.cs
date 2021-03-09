@@ -24,6 +24,7 @@ namespace Alumnos
            get => this.colorFavorito;
            //-value- está disponible dentro del set
            //quiere decir el valor que se va a asignar
+           //get - consultar set- modificar
            set => this.colorFavorito = value;
        }
       
