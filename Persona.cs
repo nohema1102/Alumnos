@@ -1,8 +1,8 @@
 using System;
 
-namespace Alumnos
+namespace Persona
 {
-    class Alumnos
+    class Persona
     {
        public string nombre;
        public string primerApellido; 
@@ -28,14 +28,14 @@ namespace Alumnos
            set => this.colorFavorito = value;
        }
       
-       public Alumnos(string nombre, string primerApellido, string segundoApellido)
+       public Persona(string nombre, string primerApellido, string segundoApellido)
        {
            this.nombre = nombre;
            this.primerApellido = primerApellido;
            this.segundoApellido = segundoApellido;
            
        }
-       public void Presentarse()
+       public virtual void Presentarse()
        {
            Console.WriteLine("Hola, me llamo " + this.nombre + this.primerApellido + this.segundoApellido);
        }

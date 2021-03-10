@@ -1,10 +1,10 @@
 using System;
 
-namespace Alumnos
+namespace Persona
 {
     //Alumno extiende la calse persona(alumnos)
     //Alumnos es la clase base de Alumno 
-    class Alumno : Alumnos 
+    class Alumno : Persona 
     {
 
         public int matricula;
@@ -17,5 +17,6 @@ namespace Alumnos
         {
             Console.WriteLine("Hola, ni nombre es " + this.NombreCompleto + "y soy estudiante en " + Alumno.escuela + "con matrícula" + this.matricula); 
         }
+        
     }
 }
